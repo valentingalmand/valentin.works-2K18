@@ -1,0 +1,28 @@
+.col
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  &-half
+    flex-shrink: 1
+    width: calc(50% - 10px)
+    +mq(700px)
+      width: 100%
+  &-2
+    flex-shrink: 1
+    width: calc(25% - 15px)
+    +mq(700px)
+      width: calc(50% - 10px)
+    +mq(400px)
+      width: 100%
+  &-6
+    flex-shrink: 1
+    width: calc(60% - 20px)
+    +mq(700px)
+      width: 100%
+  &-4
+    flex-shrink: 1
+    width: calc(40% - 20px)
+    +mq(700px)
+      width: 100%
